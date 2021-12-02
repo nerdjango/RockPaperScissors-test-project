@@ -5,7 +5,7 @@ pragma abicoder v2;
 
 import "../node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
-contract rockPaperScissors{
+contract RockPaperScissors{
     constructor(address tokenAddress){
         GameTokenAddress=tokenAddress;
     }
